@@ -15,7 +15,11 @@ function App() {
   const [sent, setSent] = useState(false)
 
   const onClickHandler = () => {
-    if (!email) return
+    if (!email) {
+      alert("Please type your email. Cheers 🍻")
+      return
+    }
+
     joinWishlist(email).then(res => {
       if (res) {
         emailjs.send('service_jw94g4r', 'template_10m6qyu', {email: email}, 'user_lJSn9FZGhGrtXm0F8A0jw')
