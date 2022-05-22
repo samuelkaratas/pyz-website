@@ -5,8 +5,6 @@ import { joinWishlist } from './firebase';
 
 import { AiFillInstagram, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 
-//user_lJSn9FZGhGrtXm0F8A0jw"
-
 import emailjs from '@emailjs/browser';
 
 function App() {
