@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  transform: scale(1.2);
+
 }
 
 .hero-text {
@@ -22,11 +22,7 @@
   max-width: 600px;
   border-radius: 10px;
 }
-@media (prefers-reduced-motion: no-preference) {
-  .hero-image {
-    animation: image-scale-animation 10s ease-out;
-  }
-}
+
 
 @keyframes image-scale-animation {
   from {

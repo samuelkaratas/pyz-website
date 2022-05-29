@@ -1,0 +1,29 @@
+.navbar{
+    place-content: center;
+    padding: 15px;
+}
+.navbar nav ul{
+    display: flex;
+    margin: auto;
+}
+.navbar nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    place-self: center;
+    text-decoration: none; 
+    list-style-type: none;     
+}
+.navbar nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 500;
+}
+
+.logo img{
+    width: -webkit-fill-available;
+}
+.logo{
+    align-self: center;
+}
