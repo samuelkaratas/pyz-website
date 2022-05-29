@@ -3,10 +3,11 @@ import './Navbar.min.css'
 import Sidebar from "./Sidebar";
 import logo from '../assets/images/logo.svg';
 import siyahbeyaz_logo from '../assets/images/siyahüstübeyaz_amblem.svg'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid menu'>
       <div className='row'>
       <Sidebar />
         <div  className='col-md-11 navbar m-auto'>
@@ -26,7 +27,7 @@ export default function Navbar() {
         </nav>
         
         </div>
-        <div className='col-md-1 logo'><img src={logo} alt="pyz-logo" /></div>
+        <div className='col-md-1 logo'><Link to="/"><img src={logo} alt="pyz-logo" /></Link></div>
         </div>
     </div>
   )

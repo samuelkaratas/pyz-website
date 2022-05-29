@@ -1,0 +1,20 @@
+.footer{
+    background: #000;
+    position: relative;
+}
+
+.copyright{
+    margin: auto;
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-media{
+    float: right;
+    margin: auto;
+}
+
+.image img{
+    width: 75%;
+    padding: 15px;
+}

@@ -1,10 +1,13 @@
 import { useState } from 'react';
-
 import { joinWishlist } from '../../firebase';
 
 import { AiFillInstagram, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 import '../../App.css';
 import emailjs from '@emailjs/browser';
+import Slider from '../../components/Slider';
+import Accordion from '../../components/Accordion';
+import Product from '../../components/Product';
+
 
 export default function Home() {
 
@@ -35,6 +38,9 @@ export default function Home() {
 
     return (
     <div>
+    <Slider />
+      <br />
+    <Product />
     <div className="hero-image">
         <div className="hero-text">
             <h1 style={{ fontSize: "40px", color: '#94f7ff', fontFamily: 'Quantum' }}>COMING SOON!</h1>

@@ -1,3 +1,9 @@
+.menu{
+    z-index: 1;
+    background: #000;
+    position: fixed;
+}
+
 .navbar{
     place-content: center;
     padding: 15px;

@@ -1,3 +1,8 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: #E5E5E5;
+}
+
 .hero-image {
   background-image: url("./test2.jpeg");
   background-color: black;
@@ -6,6 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  top: 100px;
 
 }
 
