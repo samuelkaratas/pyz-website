@@ -4,7 +4,7 @@ import './Product.min.css'
 
 export default function Product() {
   return (
-    <div className='container-fluid product'>
+    <div className='container-fluid product' id='products'>
         <div className='row'>
             <div className='col-md-4 mt-3'>
                 <div className='product-title mt-3'>Cyberscooter</div>

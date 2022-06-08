@@ -41,7 +41,8 @@ export default function Home() {
     <Slider />
       <br />
     <Product />
-    <div className="hero-image">
+    <Accordion/>
+    <div className="hero-image" id='wishlist'>
         <div className="hero-text">
             <h1 style={{ fontSize: "40px", color: '#94f7ff', fontFamily: 'Quantum' }}>COMING SOON!</h1>
             {!sent ? <div className="input-group mb-3">
