@@ -1,0 +1,33 @@
+.slider{
+    z-index: -1;
+    position: relative;
+    top: 100px;
+    background-image: linear-gradient(#D1D1D1 20%, #fff)!important;
+}
+
+.slider-title{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.slider-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #03045E;
+}
+
+.sliderButton{
+    background: #fff;
+    border: 2px solid #9353FF ;
+    border-radius: 44px;
+    width: 50%;
+    letter-spacing: 2px;
+    padding: 1px;
+    margin: auto;
+}
+.sliderButton a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #9353FF;
+    text-decoration: none;
+}

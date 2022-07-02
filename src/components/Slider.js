@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bicycle from '../assets/images/bicycle.svg'
 import './Slider.min.css'
 
@@ -15,7 +16,7 @@ export default function Slider() {
           </div>
           <div className="col-md-5 mt-3">
             <div className="slider-description mt-5 ">Coming Soon</div>
-            <div className="mt-3 slider-button"><a href="#wishlist">join our wishlist</a></div>
+            <div className="mt-3 slider-button"><Link to="/#wishlist">join our wishlist</Link></div>
           </div>
         </div>
       </div>
